@@ -9,12 +9,12 @@ const Index = () => {
                 <meta keywords="Next.js, test"></meta>
             </Head>
             <div className="wrapper">
-            <h1 className="index">Next.js test project</h1>
-            <span>Элементы сайта:</span>
-            <A href={"/"} text="Главная страница" />
-            <A href={"/users"} text="Пользователи" />
-        </div>
-            </>
+                <h1 className="index">Next.js test project</h1>
+                <span>Элементы сайта:</span>
+                <Link href="/"><a>Главная страница</a></Link>
+                <Link href="/users"><a>Пользователи</a></Link>
+            </div>
+        </>
     );
 };
 
