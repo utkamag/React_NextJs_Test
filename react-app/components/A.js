@@ -4,11 +4,11 @@ import styles from "../styles/A.module.css"
 
 const A = ({href, text}) => {
     return (
-            <Link href={href}>
-                <a className={styles.A}>
-                    {text}
-                </a>
-            </Link>
+        <Link href={href}>
+            <a className={styles.A}>
+                {text}
+            </a>
+        </Link>
 
     );
 };
